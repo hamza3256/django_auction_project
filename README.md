@@ -12,7 +12,7 @@ A web app, where you can auction for items to sell.
 
 ## Landing Page
 
-![Main](media/main_page.PNG)
+![Main](media/main_page.png)
 
 Requirements:
 
