@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'auctions.apps.AuctionsConfig',
     'accounts.apps.AccountsConfig',
     'crispy_forms',
+    'auctionhouse'
 ]
 
 MIDDLEWARE = [
