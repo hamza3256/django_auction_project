@@ -39,8 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'auctions.apps.AuctionsConfig',
     'accounts.apps.AccountsConfig',
-    'crispy_forms',
-    'auctionhouse'
+    'crispy_forms'
 ]
 
 MIDDLEWARE = [
