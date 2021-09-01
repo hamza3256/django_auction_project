@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '#eumzs1@r54ctt=#l&ynw9qgaxv8!gdv24bguotbzb6(8d8$te'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['django-auction-project.herokuapp.com', '127.0.0.1']
 
