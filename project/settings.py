@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'auctions.apps.AuctionsConfig',
     'accounts.apps.AccountsConfig',
-    'crispy_forms'
+    'crispy_forms',
+    'whitenoise.runserver_nostatic',
 ]
 
 MIDDLEWARE = [
@@ -58,6 +59,9 @@ MIDDLEWARE = [
 # https://warehouse.python.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
+
+STATIC_HOST = 'https://d31kvb5a6lfl73.cloudfront.net' if not DEBUG else ''
+STATIC_URL = STATIC_HOST + '/static/'
 
 ROOT_URLCONF = 'project.urls'
 
