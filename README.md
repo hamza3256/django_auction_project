@@ -3,12 +3,12 @@
 A web app, where you can auction for items to sell.
 
 -   ### Technologies
-    -   [ ] HTML
-    -   [ ] CSS
-    -   [ ] JavaScript
-    -   [ ] Ajax
-    -   [ ] Python/django
-    -   [ ] Sqlite3
+    -   [X] HTML
+    -   [X] CSS
+    -   [X] JavaScript
+    -   [X] Ajax
+    -   [X] Python/django
+    -   [X] Sqlite3
 
 ## Landing Page
 
